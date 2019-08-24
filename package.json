@@ -1,0 +1,15 @@
+{
+  "name": "trackingbot",
+  "version": "1.0.0",
+  "main": "dist/src/bot.ts",
+  "license": "MIT",
+  "scripts": {
+    "bot:run": "tsc && node dist/src/bot.js"
+  },
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.31.0",
+    "node-telegram-bot-api": "git+https://github.com/yagop/node-telegram-bot-api.git",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  }
+}
